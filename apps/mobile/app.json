@@ -23,6 +23,14 @@
     },
     "web": {
       "bundler": "metro"
-    }
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow Selest Security to use the camera to scan event QR codes."
+        }
+      ]
+    ]
   }
 }
