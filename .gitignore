@@ -28,3 +28,6 @@ apps/mobile/web-build/
 
 # genral env
 .env
+
+# Local tools (cloudflared binary for demo.sh)
+.tools/
